@@ -1,0 +1,49 @@
+html{
+    color: white;
+}
+.title-font{
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+}
+head{
+  width: 50%;
+}
+body{
+  font-family: 'Quicksand', sans-serif;
+  max-width: 50%;
+  display: inline-block;
+  background-image:url("https://highape.com/images/uploads/2017/05/rock-music-wallpapers.jpg");
+  opacity = .4;
+}
+.non-opaque{
+    opacity = 1;
+}
+.social-icons{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+.italic{
+  font-style:italic;
+}
+.center{
+  text-align:center;
+}
+.margin{
+  margin:0px;
+  padding:20px;
+}
+.border{
+  border-width:20px;
+  border-style:solid;
+  border-radius:20px;
+}
+

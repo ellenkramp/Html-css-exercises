@@ -1,0 +1,46 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+    font-weight: lighter;
+}
+nav{
+    background-color:black;
+    color: white;
+    padding: 5;
+}
+
+.center{
+    text-align:center;
+    padding:25;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a.footer{
+    color: black;
+    text-decoration: none;
+    padding: 5;
+}
+
+.left-foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+}
+
+.right-foot{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    color: black;
+}
+
+button{
+    object-position: center;
+}
+
