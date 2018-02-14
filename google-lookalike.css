@@ -3,15 +3,36 @@ html{
     font-size: 12;
     font-weight: lighter;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1 0 0%;
+}
 nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     background-color:black;
     color: white;
     padding: 5;
 }
+.origin-nav{
+    justify-content: flex-start;
+}
+.different-nav{
+    justify-content: flex-end;
 
+}
 .center{
-    text-align:center;
-    padding:25;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 25;
+    flex-wrap: wrap;
 }
 
 a{
@@ -25,22 +46,33 @@ a.footer{
     padding: 5;
 }
 
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .left-foot{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: inline-block;
+    justify-content: flex-start;
+    padding: 5;
 }
 
 .right-foot{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    display: inline-block;
-    color: black;
+    justify-content: flex-end;
+    padding: 5;
 }
 
 button{
-    object-position: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#input{
+    appearance: none;
+}
+
+.bottom{
+    align-items: flex-end;
 }
 
